@@ -1,0 +1,70 @@
+2025-01-29T20:28:19.662+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] c.a.p.a.a.PhotoAppApiAlbumsApplication   : Starting PhotoAppApiAlbumsApplication using Java 17.0.13 with PID 21096 (C:\Users\sujit\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\PhotoAppApiAlbums\target\classes started by sujit in C:\Users\sujit\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\PhotoAppApiAlbums)
+2025-01-29T20:28:19.663+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] c.a.p.a.a.PhotoAppApiAlbumsApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-01-29T20:28:19.948+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1bed7699-81b2-3aec-ac5e-22167c25ebb9
+2025-01-29T20:28:19.953+05:30  WARN [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-01-29T20:28:19.953+05:30  WARN [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2025-01-29T20:28:19.981+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2025-01-29T20:28:19.982+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-29T20:28:19.982+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2025-01-29T20:28:20.014+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-29T20:28:20.014+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 349 ms
+2025-01-29T20:28:20.258+05:30  WARN [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-01-29T20:28:20.341+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-01-29T20:28:20.347+05:30  WARN [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-01-29T20:28:20.349+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-01-29T20:28:20.363+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 64792 (http) with context path '/'
+2025-01-29T20:28:20.363+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 64792
+2025-01-29T20:28:20.364+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-01-29T20:28:20.365+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-01-29T20:28:20.366+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-01-29T20:28:20.366+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-01-29T20:28:20.366+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-01-29T20:28:20.366+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-01-29T20:28:20.366+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-01-29T20:28:20.366+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-01-29T20:28:20.366+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-01-29T20:28:20.366+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-01-29T20:28:20.396+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-01-29T20:28:20.396+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-01-29T20:28:20.397+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-01-29T20:28:20.397+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1738162700397 with initial instances count: 2
+2025-01-29T20:28:20.398+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ALBUMS-WS with eureka with status UP
+2025-01-29T20:28:20.398+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738162700398, current=UP, previous=STARTING]
+2025-01-29T20:28:20.398+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ALBUMS-WS/albums-ws:81d604bc190a4fdddecc546538220bde: registering service...
+2025-01-29T20:28:20.412+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ALBUMS-WS/albums-ws:81d604bc190a4fdddecc546538220bde - registration status: 204
+2025-01-29T20:28:20.497+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] c.a.p.a.a.PhotoAppApiAlbumsApplication   : Started PhotoAppApiAlbumsApplication in 0.988 seconds (process running for 1111.926)
+2025-01-29T20:28:20.511+05:30  INFO [albums-ws,,] 21096 --- [albums-ws] [restartedMain] [                                                 ] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file.name albums-ws.log (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
