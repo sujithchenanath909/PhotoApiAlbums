@@ -33,6 +33,7 @@ public class AlbumsController {
                 MediaType.APPLICATION_JSON_VALUE,
                 MediaType.APPLICATION_XML_VALUE,
             })
+    @PreAuthorize("principal == #id or hasAuthority('PROFILE.READ') or hasRole('ADMIN')")
     public List<AlbumResponseModel> userAlbums(@PathVariable String id) {
 
         List<AlbumResponseModel> returnValue = new ArrayList<>();
